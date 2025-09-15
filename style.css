@@ -1,0 +1,79 @@
+/* Paleta de cores pastéis */
+:root {
+    --pastel-pink: #F7C6C7;
+    --pastel-blue: #CDE7F0;
+    --pastel-green: #D4F1BE;
+    --pastel-yellow: #FFF3B0;
+    --pastel-purple: #D6CDEA;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--pastel-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 350px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: var(--pastel-pink);
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #444;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 4px;
+    background-color: var(--pastel-yellow);
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: var(--pastel-pink);
+    background-color: var(--pastel-green);
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: var(--pastel-pink);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: var(--pastel-purple);
+  }
+  
+  #mensagem {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+  }

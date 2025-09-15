@@ -1,0 +1,67 @@
+/* Fundo pastel */
+body {
+    background-color: #CDE7F0; /* Azul pastel */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Container */
+  .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Título */
+  .form-title {
+    text-align: center;
+    color: #F7C6C7; /* Rosa pastel */
+    margin-bottom: 15px;
+  }
+  
+  /* Inputs */
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .form input:focus {
+    border-color: #D6CDEA; /* Roxo pastel */
+    box-shadow: 0 0 5px #D6CDEA;
+  }
+  
+  /* Botão */
+  .btn {
+    width: 100%;
+    background: #F7C6C7;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #D6CDEA;
+  }
+  
+  /* Mensagens */
+  .erro {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .sucesso {
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+  }
